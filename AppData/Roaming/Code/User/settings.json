@@ -1,0 +1,43 @@
+{
+  "workbench.colorTheme": "GitHub Dark Default",
+  "workbench.preferredDarkColorTheme": "Monokai Dimmed",
+  "workbench.preferredLightColorTheme": "Atom One Light",
+  "codesnap.showLineNumbers": false,
+  "codesnap.showWindowControls": false,
+  "editor.inlineSuggest.enabled": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": true,
+    "markdown": false,
+    "scminput": false,
+    "yaml": false
+  },
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "remote.SSH.remotePlatform": {
+    "vm1": "linux",
+    "vm24": "linux",
+    "vm23": "linux",
+    "vm27": "linux",
+    "vm27_root": "linux"
+  },
+  "files.associations": {
+    "*.pug": "jade"
+  },
+  "git.enableSmartCommit": true,
+  "[markdown]": {
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.wordWrap": "on",
+    "editor.quickSuggestions": {
+      "comments": "off",
+      "strings": "off",
+      "other": "off"
+    }
+  }
+}

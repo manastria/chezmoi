@@ -1,0 +1,38 @@
+// Place your key bindings in this file to override the defaults
+[
+  {
+    "key": "ctrl+shift+9",
+    "command": "editor.emmet.action.wrapWithAbbreviation",
+    "when": "editorHasSelection",
+    "args": {
+      "abbreviation": "kbd"
+    }
+  },
+  {
+    "key": "alt+f1",
+    "command": "editor.action.joinLines"
+  },
+  {
+    "key": "alt+f1",
+    "command": "-editor.action.showAccessibilityHelp"
+  },
+  {
+    "key": "ctrl+t l",
+    "command": "editor.action.transformToLowercase",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+t u",
+    "command": "editor.action.transformToUppercase",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+t t",
+    "command": "editor.action.transformToTitlecase",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+t c",
+    "command": "markdown.extension.editing.toggleCodeBlock"
+  }
+]
